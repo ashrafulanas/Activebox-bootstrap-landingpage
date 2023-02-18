@@ -42,39 +42,3 @@ sub title font Color #e4e4e8 raleway regular 22px
 
 
 
- <!-- testimonial Section -->
-    <div class="testimonialSection">
-      <div class="container-fluid">
-        <div id="reviewSlider">
-          <div class="slick-item">
-            <div class="row">
-              <div class="col-lg-6 col-md-12" id="review-photo">
-                <img src="image/testimonial-1.jpg" alt="" />
-              </div>
-              <div class="col-lg-6 col-md-12" id="review-content">
-                <p>
-                  “Integer posuere erat a ante venenatis dapibus posuere velit
-                  aliquet. Donec sed odio dui. Aenean eu leo quam...”
-                </p>
-                <h4>Susan Larasima, Interaction Design</h4>
-              </div>
-            </div>
-          </div>
-          <div class="slick-item">
-            <div class="row">
-              <div class="col-lg-6" id="review-photo">
-                <img src="image/testimonial-2.jpg" alt="" />
-              </div>
-              <div class="col-lg-6" id="review-content">
-                <p>
-                  “Integer posuere erat a ante venenatis dapibus posuere velit
-                  aliquet. Donec sed odio dui. Aenean eu leo quam...”
-                </p>
-                <h4>Lara Datta, Developer</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- testimonial Section End -->
