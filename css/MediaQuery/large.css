@@ -1,0 +1,112 @@
+/* // Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*Hero Section*/
+
+  .bannerSection {
+  }
+  .bannerTitle {
+    text-align: center;
+    margin: 120px auto;
+  }
+  .bannerTitle h1 {
+    font-size: 50px;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .bannerTitle p {
+    margin: 40px auto 70px;
+    font-size: 16px;
+    width: 80%;
+  }
+  .bannerTitle button {
+    padding: 12px 30px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .bannerTitle button a {
+    font-size: 13px;
+  }
+
+  /*Hero Section end*/
+  /* gallarySection */
+  /* gallarySection end */
+  /*team Member*/
+  /*team Member End*/
+  /*testimonial*/
+
+  .review-photo {
+    width: 50%;
+  }
+  .review-content {
+    width: 50%;
+  }
+  .review-photo img {
+    width: 100%;
+  }
+
+  .review-content {
+    margin-right: 20px;
+  }
+
+  .review-content p {
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .review-content h6 {
+    font-size: 13px;
+    padding-left: 30px;
+    font-weight: 400;
+  }
+  .slick-dots {
+    bottom: 5%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+  /*testimonial end*/
+  /* download section */
+
+  .dloadContent {
+    margin: 80px 0;
+  }
+  .dloadContent p {
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--color-5);
+  }
+  .dloadContent h5 {
+    margin: 15px 0 25px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-5);
+    text-transform: uppercase;
+  }
+  .dloadContent button {
+    background-color: var(--color-3);
+    padding: 15px 50px;
+    transition: 0.3s ease-in-out;
+    border: 1px solid var(--color-3);
+  }
+  .dloadContent button:hover {
+    background-color: var(--color-3);
+
+    border: 1px solid var(--color-3);
+  }
+  .dloadContent button .btn {
+    border-radius: 5px;
+  }
+  .dloadContent button a {
+    font-weight: 600;
+    color: var(--color-2);
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+  }
+  .dloadContent button:hover a {
+    font-weight: 600;
+    color: var(--color-5);
+    text-transform: uppercase;
+  }
+
+  /* download section end */
+}

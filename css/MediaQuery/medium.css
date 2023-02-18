@@ -1,0 +1,119 @@
+/* // medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*Hero Section*/
+  .navbar-toggler .svg-inline--fa {
+    height: 30px;
+    color: var(--color-2);
+  }
+  .navbar {
+    --bs-navbar-color: transparent;
+    --bs-navbar-toggler-border-color: none;
+  }
+  .navbar-nav .nav-item {
+    padding: 0 5px;
+    padding-top: 12px;
+  }
+
+  .navbar-nav .nav-item:last-child {
+    padding-right: 5px;
+  }
+  .navbar-nav .nav-item .nav-link {
+    text-align: right;
+  }
+  .bannerSection {
+  }
+  .bannerTitle {
+    text-align: center;
+    margin: 100px auto;
+  }
+  .bannerTitle h1 {
+    font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .bannerTitle p {
+    margin: 40px auto 60px;
+    font-size: 16px;
+    width: 90%;
+  }
+  .bannerTitle button {
+    padding: 12px 30px;
+    transition: 0.3s ease-in-out;
+  }
+
+  .bannerTitle button a {
+    font-size: 13px;
+  }
+
+  /*Hero Section end*/
+  /*feature Section*/
+  .featureSection {
+    margin: 0px 0 50px;
+  }
+  /*feature Section end*/
+  /* gallarySection */
+  /* gallarySection end */
+  /*team Member*/
+  /*team Member End*/
+
+  /*testimonial*/
+  .reviewSection {
+    margin-top: 60px;
+  }
+  .review-item {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .review-photo {
+    width: 100%;
+  }
+  .review-content {
+    width: 100%;
+  }
+  .review-photo img {
+    width: 100%;
+  }
+
+  .review-content {
+    margin-right: 20px;
+  }
+
+  .review-content p {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .review-content h6 {
+    font-size: 13px;
+    padding-left: 30px;
+    font-weight: 400;
+    margin-bottom: 80px;
+  }
+  .slick-dots {
+    bottom: 5%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+  }
+  /*testimonial end*/
+  /*download Section*/
+  .downloadSection {
+  }
+  .dloadContent {
+    margin: 80px 0;
+  }
+  .dloadContent p {
+    font-size: 25px;
+  }
+  .dloadContent h5 {
+  }
+  .dloadContent button {
+    padding: 15px 35px;
+  }
+  /*download Section end*/
+  /* widget */
+
+  /* widget end */
+}

@@ -1,0 +1,445 @@
+/* Import different Section */
+
+/* @import url("/css/vanila/download.css"); */
+
+/* Import different Section end */
+
+:root {
+  --color-1: #e4e4e8;
+  --color-2: #ffffff;
+  --color-3: #e84545;
+  --color-4: #6c7279;
+  --color-5: #2d3033;
+  --color-6: #dd4949;
+  --color-7: #c6cacc;
+  --color-8: #53354a;
+  --color-9: #3a3e64;
+  --color-10: #313454;
+  --color-11: ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-4);
+}
+img {
+  width: 100%;
+}
+p {
+  margin: 0rem;
+}
+ul,
+li {
+  list-style: none;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.btn,
+.btn:hover {
+  outline: none;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.btn {
+  display: inline-block;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* Hero Section */
+.heroSection {
+  background-image: url(/image/headerBackGround.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.headerSection {
+}
+
+.navigation {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--color-4);
+}
+.navbar-toggler {
+}
+.navbar-nav {
+}
+.navbar-nav .nav-item {
+  padding: 0 22px;
+}
+
+.navbar-nav .nav-item:last-child {
+  padding-right: 0px;
+}
+.navbar-nav .nav-item .nav-link {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-1);
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s ease-in-out;
+}
+.navbar-nav .nav-item:hover .nav-link {
+  border-bottom: 1px solid var(--color-2);
+}
+.navbar-nav .nav-item .nav-link.active {
+  padding: 8px;
+}
+
+.bannerSection {
+}
+.bannerTitle {
+  text-align: center;
+
+  margin: 150px auto;
+}
+.bannerTitle h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  color: var(--color-2);
+  text-transform: uppercase;
+  width: 70%;
+  margin: 0 auto;
+}
+.bannerTitle p {
+  margin: 40px auto 80px;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--color-2);
+  width: 72%;
+}
+.bannerTitle button {
+  background-color: var(--color-3);
+  padding: 18px 50px;
+  transition: 0.3s ease-in-out;
+}
+.bannerTitle button:hover {
+  background-color: transparent;
+  border: 1px solid var(--color-2);
+}
+.bannerTitle button .btn {
+  border-radius: 5px;
+}
+.bannerTitle button a {
+  font-weight: 600;
+  color: var(--color-2);
+  text-transform: uppercase;
+}
+/* Hero Section End */
+/* featureSection */
+.featureSection {
+  margin: 45px 0 120px;
+}
+.featureContent {
+  text-align: center;
+  margin-top: 75px;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 60px;
+  overflow: visible;
+  vertical-align: -0.125em;
+  color: var(--color-3);
+}
+.featureContent h4 {
+  margin: 30px auto 25px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-5);
+}
+.featureContent p {
+  padding: 0 30px;
+}
+
+/* featureSection end */
+/* gallarySection */
+.gallarySection {
+  margin: 0 0 100px;
+}
+.gallarySection .row {
+  --bs-gutter-x: 0;
+}
+
+.gallarySection .container-fluid {
+  padding: 0 0;
+}
+
+.box13 {
+  position: relative;
+}
+.box13 .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #dd4949;
+  opacity: 0;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease-in-out;
+}
+.box13:hover .overlay {
+  height: 100%;
+  opacity: 0.8;
+}
+.box13 .overlayText {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease-in-out;
+}
+
+.box13 .overlayText h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-2);
+}
+.box13 .overlayText p {
+  color: var(--color-2);
+}
+
+.box13:hover .overlayText {
+  opacity: 1;
+}
+
+/* gallarySection end */
+
+/* Our Team */
+.teamSection {
+  margin: 0px 0;
+}
+.teamContent {
+  margin: 20px 0 0;
+}
+.teamContent img {
+}
+.teamContent h4 {
+  margin: 25px 0 15px;
+  font-size: 22px;
+  color: var(--color-5);
+}
+.teamContent h5 {
+  margin-bottom: 25px;
+  font-size: 15px;
+  color: var(--color-3);
+  text-transform: uppercase;
+}
+.teamContent p {
+  margin-bottom: 30px;
+}
+.teamContent ul {
+  display: flex;
+  padding: 0;
+}
+.teamContent ul li {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.teamContent ul li:hover {
+  border: 1px solid var(--color-5);
+}
+.teamContent ul li:first-child {
+  margin-left: 0px;
+}
+
+.teamContent ul li a {
+}
+.teamContent ul li a .svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 20px;
+  overflow: visible;
+  vertical-align: -0.125em;
+  color: var(--color-7);
+  transition: all 0.3s ease-in-out;
+}
+.teamContent ul li:hover a .svg-inline--fa {
+  color: var(--color-5);
+}
+
+/* Our Team end */
+/*testimonial*/
+.reviewSection {
+  margin-top: 100px;
+  background-color: var(--color-8);
+}
+.reviewSection .container-fluid {
+  padding: 0px;
+}
+
+.review-item {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.review-photo {
+  position: relative;
+  width: 50%;
+}
+.review-content {
+  width: 50%;
+}
+.review-photo img {
+  width: 100%;
+}
+
+.review-content {
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.review-content p {
+  padding-left: 85px;
+  padding-right: 100px;
+  font-family: "Cardo", serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: var(--color-7);
+  margin-bottom: 25px;
+}
+.review-content h6 {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  padding-left: 85px;
+  font-weight: 400;
+  color: var(--color-7);
+  text-transform: uppercase;
+}
+/*testimonial end*/
+/*download Section*/
+.downloadSection {
+}
+.dloadContent {
+  margin: 100px 0;
+}
+.dloadContent p {
+  font-size: 28px;
+  font-weight: 300;
+  color: var(--color-5);
+}
+.dloadContent h5 {
+  margin: 15px 0 35px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-5);
+  text-transform: uppercase;
+}
+.dloadContent button {
+  background-color: var(--color-3);
+  padding: 15px 50px;
+  transition: 0.3s ease-in-out;
+  border: 1px solid var(--color-3);
+}
+.dloadContent button:hover {
+  background-color: var(--color-3);
+
+  border: 1px solid var(--color-3);
+}
+.dloadContent button .btn {
+  border-radius: 5px;
+}
+.dloadContent button a {
+  font-weight: 600;
+  color: var(--color-2);
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.dloadContent button:hover a {
+  font-weight: 600;
+  color: var(--color-5);
+  text-transform: uppercase;
+}
+
+/*download Section end*/
+
+/* widget */
+.widgetSection {
+  padding-top: 40px;
+  background-color: var(--color-9);
+}
+.widgetContent {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+.widgetContent h5 {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-2);
+  margin-bottom: 20px;
+}
+.widgetContent p {
+  font-size: 13px;
+}
+.widgetContent ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.widgetContent ul li {
+  margin: 0 5px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.widgetContent ul li:hover {
+  border: 1px solid var(--color-2);
+}
+.widgetContent ul li:first-child {
+  margin-left: 0px;
+}
+
+.widgetContent ul li a {
+}
+.widgetContent ul li a .svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 20px;
+  overflow: visible;
+  vertical-align: -0.125em;
+  color: var(--color-2);
+  transition: all 0.3s ease-in-out;
+}
+.widgetContent ul li:hover a .svg-inline--fa {
+  color: var(--color-2);
+}
+
+/* widget end */
+footer {
+  background-color: var(--color-10);
+}
+footer p {
+  padding: 25px 0;
+}
